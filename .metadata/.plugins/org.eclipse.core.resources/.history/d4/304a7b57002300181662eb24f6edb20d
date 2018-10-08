@@ -1,0 +1,10 @@
+package br.com.caelum.livraria.bean;
+
+import javax.ejb.ApplicationException;
+
+@ApplicationException
+public class LivrariaException extends Exception {
+	
+	
+
+}

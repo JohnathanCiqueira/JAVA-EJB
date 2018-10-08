@@ -1,0 +1,104 @@
+2018-03-08 14:05:57,403 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-08 14:05:57,883 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-08 14:05:58,014 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-08 14:05:58,014 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_161\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_161
+	java.io.tmpdir = C:\Users\JCIQUE~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131\bin\;C:\app\E37\product\11.2.0\client_1\BIN\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.7\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final
+	jboss.host.name = e37
+	jboss.modules.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = e37
+	jboss.qualified.host.name = e37
+	jboss.server.base.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = e37
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_161\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\jciqueira
+	user.language = pt
+	user.name = jciqueira
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2018-03-08 14:05:58,014 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-03-08 14:05:59,902 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-08 14:05:59,923 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-08 14:05:59,943 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 25) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-08 14:06:00,055 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-08 14:06:00,075 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.5.4.Final
+2018-03-08 14:06:00,075 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.5.4.Final

@@ -1,0 +1,4 @@
+"{\"WFLYCTL0080: Failed services\" => {\"jboss.deployment.unit.\\\"livraria.war\\\".WeldStartService\" => \"Failed to start service
+    Caused by: org.jboss.weld.exceptions.DefinitionException: WELD-001451: javax.transaction.UserTransaction cannot be injected into an enterprise bean with container-managed transactions: [BackedAnnotatedField] @Inject br.com.caelum.livraria.dao.AutorDao.tx
+	at br.com.caelum.livraria.dao.AutorDao.tx(AutorDao.java:0)
+  StackTrace\"}}"

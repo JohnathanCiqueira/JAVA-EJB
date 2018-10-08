@@ -1,0 +1,503 @@
+2018-03-09 10:08:02,157 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-09 10:08:04,445 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-09 10:08:04,673 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-09 10:08:04,674 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_161\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_161
+	java.io.tmpdir = C:\Users\JCIQUE~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131\bin\;C:\app\E37\product\11.2.0\client_1\BIN\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.7\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final
+	jboss.host.name = e37
+	jboss.modules.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = e37
+	jboss.qualified.host.name = e37
+	jboss.server.base.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = e37
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_161\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\jciqueira
+	user.language = pt
+	user.name = jciqueira
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2018-03-09 10:08:04,675 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-03-09 10:08:15,317 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-09 10:08:15,360 INFO  [org.wildfly.security] (ServerService Thread Pool -- 4) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-09 10:08:15,379 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 24) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-09 10:08:15,508 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment livraria.war
+2018-03-09 10:08:15,582 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found livraria.war in deployment directory. To trigger deployment create a file called livraria.war.dodeploy
+2018-03-09 10:08:15,652 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-09 10:08:15,687 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.5.4.Final
+2018-03-09 10:08:15,702 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.5.4.Final
+2018-03-09 10:08:15,831 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-09 10:08:15,840 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-09 10:08:15,855 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-03-09 10:08:15,869 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-09 10:08:15,935 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-09 10:08:16,000 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-09 10:08:16,015 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-09 10:08:16,104 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-09 10:08:16,964 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-03-09 10:08:17,059 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-09 10:08:17,362 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-03-09 10:08:17,499 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-09 10:08:17,519 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-09 10:08:18,079 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-09 10:08:18,081 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = com.mysql
+2018-03-09 10:08:18,637 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2018-03-09 10:08:18,657 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-09 10:08:18,700 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.5.Final
+2018-03-09 10:08:19,223 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-09 10:08:19,514 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-03-09 10:08:19,525 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2018-03-09 10:08:20,156 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-09 10:08:20,155 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-09 10:08:20,206 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-09 10:08:20,729 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-09 10:08:21,228 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-09 10:08:21,229 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/livrariaDS]
+2018-03-09 10:08:22,310 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-09 10:08:22,362 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\deployments
+2018-03-09 10:08:22,576 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "livraria.war" (runtime-name: "livraria.war")
+2018-03-09 10:08:22,579 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-09 10:08:23,128 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-09 10:08:24,494 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-03-09 10:08:25,286 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for livraria
+2018-03-09 10:08:25,912 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'livraria.war#livraria'
+2018-03-09 10:08:26,061 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: livraria
+	...]
+2018-03-09 10:08:26,333 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment livraria.war
+2018-03-09 10:08:26,771 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.3.5.Final
+2018-03-09 10:08:26,787 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.1.10.Final}
+2018-03-09 10:08:26,790 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
+2018-03-09 10:08:26,791 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000021: Bytecode provider name : javassist
+2018-03-09 10:08:26,993 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'LivroDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:app/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:module/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:global/livraria/LivroDao
+	java:app/livraria/LivroDao
+	java:module/LivroDao
+
+2018-03-09 10:08:26,994 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'AutorService' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/AutorService!br.com.caelum.livraria.bean.AutorService
+	java:app/livraria/AutorService!br.com.caelum.livraria.bean.AutorService
+	java:module/AutorService!br.com.caelum.livraria.bean.AutorService
+	java:global/livraria/AutorService
+	java:app/livraria/AutorService
+	java:module/AutorService
+
+2018-03-09 10:08:26,994 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'Banco' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:app/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:module/Banco!br.com.caelum.livraria.dao.Banco
+	java:global/livraria/Banco
+	java:app/livraria/Banco
+	java:module/Banco
+
+2018-03-09 10:08:26,995 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'AutorDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:app/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:module/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:global/livraria/AutorDao
+	java:app/livraria/AutorDao
+	java:module/AutorDao
+
+2018-03-09 10:08:26,995 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'UsuarioDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:app/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:module/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:global/livraria/UsuarioDao
+	java:app/livraria/UsuarioDao
+	java:module/UsuarioDao
+
+2018-03-09 10:08:26,998 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-09 10:08:27,631 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-03-09 10:08:27,932 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.4.3 (Final)
+2018-03-09 10:08:28,441 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-09 10:08:28,487 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'livraria.war#livraria'
+2018-03-09 10:08:29,071 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-03-09 10:08:29,149 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-03-09 10:08:30,608 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service jboss.deployment.unit."livraria.war".WeldStartService: org.jboss.msc.service.StartException in service jboss.deployment.unit."livraria.war".WeldStartService: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1978)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.jboss.weld.exceptions.DefinitionException: WELD-001451: javax.transaction.UserTransaction cannot be injected into an enterprise bean with container-managed transactions: [BackedAnnotatedField] @Inject br.com.caelum.livraria.dao.AutorDao.tx
+	at br.com.caelum.livraria.dao.AutorDao.tx(AutorDao.java:0)
+  StackTrace
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDefinitionErrors(Validator.java:319)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:281)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:137)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:158)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:501)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:61)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:59)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2018-03-09 10:08:30,619 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "livraria.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"livraria.war\".WeldStartService" => "Failed to start service
+    Caused by: org.jboss.weld.exceptions.DefinitionException: WELD-001451: javax.transaction.UserTransaction cannot be injected into an enterprise bean with container-managed transactions: [BackedAnnotatedField] @Inject br.com.caelum.livraria.dao.AutorDao.tx
+	at br.com.caelum.livraria.dao.AutorDao.tx(AutorDao.java:0)
+  StackTrace"}}
+2018-03-09 10:08:30,636 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "livraria.war" (runtime-name : "livraria.war")
+2018-03-09 10:08:30,660 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."livraria.war".WeldStartService: Failed to start service
+
+2018-03-09 10:08:31,045 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-09 10:08:31,048 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-09 10:08:31,049 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-09 10:08:31,049 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started (with errors) in 30214ms - Started 481 of 743 services (35 services failed or missing dependencies, 354 services are lazy, passive or on-demand)
+2018-03-09 10:08:45,429 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+2018-03-09 10:08:45,432 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-09 10:08:45,435 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-03-09 10:08:45,532 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'livraria.war#livraria'
+2018-03-09 10:08:45,536 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-09 10:08:45,689 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2018-03-09 10:08:45,711 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'livraria.war#livraria'
+2018-03-09 10:08:45,723 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/livrariaDS]
+2018-03-09 10:08:45,727 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-09 10:08:45,740 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = com.mysql
+2018-03-09 10:08:45,946 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 23) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-03-09 10:08:46,053 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-09 10:08:46,055 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-09 10:08:46,056 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-09 10:08:46,057 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-09 10:08:46,058 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-03-09 10:08:46,067 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment livraria.war (runtime-name: livraria.war) in 602ms
+2018-03-09 10:08:46,080 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 568ms
+2018-03-09 10:09:15,748 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-09 10:09:16,303 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-09 10:09:16,447 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-09 10:09:16,448 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_161\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_161
+	java.io.tmpdir = C:\Users\JCIQUE~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131\bin\;C:\app\E37\product\11.2.0\client_1\BIN\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.7\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final
+	jboss.host.name = e37
+	jboss.modules.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = e37
+	jboss.qualified.host.name = e37
+	jboss.server.base.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = e37
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_161\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\jciqueira
+	user.language = pt
+	user.name = jciqueira
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2018-03-09 10:09:16,450 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-03-09 10:09:18,457 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-09 10:09:18,484 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 7) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-09 10:09:18,497 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-09 10:09:18,614 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment livraria.war
+2018-03-09 10:09:18,627 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ejb-timerservice.jar in deployment directory. To trigger deployment create a file called ejb-timerservice.jar.dodeploy
+2018-03-09 10:09:18,628 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found livraria.war in deployment directory. To trigger deployment create a file called livraria.war.dodeploy
+2018-03-09 10:09:18,665 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-09 10:09:18,683 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.5.4.Final
+2018-03-09 10:09:18,692 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.5.4.Final
+2018-03-09 10:09:18,743 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-09 10:09:18,747 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-09 10:09:18,750 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-03-09 10:09:18,764 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-09 10:09:18,775 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-03-09 10:09:18,778 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-09 10:09:18,789 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-09 10:09:18,799 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-09 10:09:18,804 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-09 10:09:18,820 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-09 10:09:18,839 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-09 10:09:18,854 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-03-09 10:09:18,949 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-09 10:09:19,017 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = com.mysql
+2018-03-09 10:09:19,020 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-09 10:09:19,026 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-03-09 10:09:19,227 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-09 10:09:19,543 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-09 10:09:19,583 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-09 10:09:19,585 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-09 10:09:19,645 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2018-03-09 10:09:19,643 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final
+2018-03-09 10:09:19,669 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-03-09 10:09:19,830 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-09 10:09:19,883 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-09 10:09:19,920 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-09 10:09:19,922 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrador\eclipse-workspace\EJB\wildfly-11.0.0.Final\standalone\deployments
+2018-03-09 10:09:19,955 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ejb-timerservice.jar" (runtime-name: "ejb-timerservice.jar")
+2018-03-09 10:09:19,968 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-09 10:09:20,029 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "livraria.war" (runtime-name: "livraria.war")
+2018-03-09 10:09:20,349 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-09 10:09:20,372 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/livrariaDS]
+2018-03-09 10:09:20,514 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-09 10:09:20,727 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-03-09 10:09:21,044 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ejb-timerservice.jar
+2018-03-09 10:09:21,104 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.3.5.Final
+2018-03-09 10:09:21,200 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'Agendador' in deployment unit 'deployment "ejb-timerservice.jar"' are as follows:
+
+	java:global/ejb-timerservice/Agendador!br.com.caelum.timer.Agendador
+	java:app/ejb-timerservice/Agendador!br.com.caelum.timer.Agendador
+	java:module/Agendador!br.com.caelum.timer.Agendador
+	java:global/ejb-timerservice/Agendador
+	java:app/ejb-timerservice/Agendador
+	java:module/Agendador
+
+2018-03-09 10:09:21,352 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for livraria
+2018-03-09 10:09:21,513 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'livraria.war#livraria'
+2018-03-09 10:09:21,559 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-03-09 10:09:21,562 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: livraria
+	...]
+2018-03-09 10:09:21,664 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment livraria.war
+2018-03-09 10:09:21,761 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'LivroDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:app/livraria/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:module/LivroDao!br.com.caelum.livraria.dao.LivroDao
+	java:global/livraria/LivroDao
+	java:app/livraria/LivroDao
+	java:module/LivroDao
+
+2018-03-09 10:09:21,761 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AutorService' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/AutorService!br.com.caelum.livraria.bean.AutorService
+	java:app/livraria/AutorService!br.com.caelum.livraria.bean.AutorService
+	java:module/AutorService!br.com.caelum.livraria.bean.AutorService
+	java:global/livraria/AutorService
+	java:app/livraria/AutorService
+	java:module/AutorService
+
+2018-03-09 10:09:21,761 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Banco' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:app/livraria/Banco!br.com.caelum.livraria.dao.Banco
+	java:module/Banco!br.com.caelum.livraria.dao.Banco
+	java:global/livraria/Banco
+	java:app/livraria/Banco
+	java:module/Banco
+
+2018-03-09 10:09:21,762 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AutorDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:app/livraria/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:module/AutorDao!br.com.caelum.livraria.dao.AutorDao
+	java:global/livraria/AutorDao
+	java:app/livraria/AutorDao
+	java:module/AutorDao
+
+2018-03-09 10:09:21,762 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'UsuarioDao' in deployment unit 'deployment "livraria.war"' are as follows:
+
+	java:global/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:app/livraria/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:module/UsuarioDao!br.com.caelum.livraria.dao.UsuarioDao
+	java:global/livraria/UsuarioDao
+	java:app/livraria/UsuarioDao
+	java:module/UsuarioDao
+
+2018-03-09 10:09:21,820 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.1.10.Final}
+2018-03-09 10:09:21,825 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2018-03-09 10:09:21,827 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2018-03-09 10:09:21,897 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.4.3 (Final)
+2018-03-09 10:09:21,996 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-09 10:09:22,364 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'livraria.war#livraria'
+2018-03-09 10:09:22,474 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-09 10:09:23,015 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-03-09 10:09:23,081 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2018-03-09 10:09:23,884 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.deployment.unit."livraria.war".WeldStartService: org.jboss.msc.service.StartException in service jboss.deployment.unit."livraria.war".WeldStartService: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1978)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.jboss.weld.exceptions.DefinitionException: WELD-001451: javax.transaction.UserTransaction cannot be injected into an enterprise bean with container-managed transactions: [BackedAnnotatedField] @Inject br.com.caelum.livraria.dao.AutorDao.tx
+	at br.com.caelum.livraria.dao.AutorDao.tx(AutorDao.java:0)
+  StackTrace
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDefinitionErrors(Validator.java:319)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:281)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:137)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:158)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:501)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:61)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:59)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2018-03-09 10:09:24,079 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "livraria.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"livraria.war\".WeldStartService" => "Failed to start service
+    Caused by: org.jboss.weld.exceptions.DefinitionException: WELD-001451: javax.transaction.UserTransaction cannot be injected into an enterprise bean with container-managed transactions: [BackedAnnotatedField] @Inject br.com.caelum.livraria.dao.AutorDao.tx
+	at br.com.caelum.livraria.dao.AutorDao.tx(AutorDao.java:0)
+  StackTrace"}}
+2018-03-09 10:09:24,095 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "livraria.war" (runtime-name : "livraria.war")
+2018-03-09 10:09:24,095 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "ejb-timerservice.jar" (runtime-name : "ejb-timerservice.jar")
+2018-03-09 10:09:24,126 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."livraria.war".WeldStartService: Failed to start service
+
+2018-03-09 10:09:24,248 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-09 10:09:24,251 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-09 10:09:24,251 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-09 10:09:24,252 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started (with errors) in 8946ms - Started 560 of 823 services (35 services failed or missing dependencies, 357 services are lazy, passive or on-demand)

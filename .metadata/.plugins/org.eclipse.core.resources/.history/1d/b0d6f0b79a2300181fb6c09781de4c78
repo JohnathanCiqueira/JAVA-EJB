@@ -1,0 +1,15 @@
+package br.com.caelum.timer;
+
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+
+@Singleton
+@Startup
+public class Agendador {
+
+	
+	void agendado() {
+		System.out.println("verificando serviço externo periodicamente");
+	}
+	
+}

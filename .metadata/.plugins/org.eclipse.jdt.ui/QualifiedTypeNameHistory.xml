@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.ejb.TransactionManagement"/>
+<fullyQualifiedTypeName name="javax.ejb.TransactionManagementType"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+<fullyQualifiedTypeName name="br.com.caelum.livraria.dao.AutorDao"/>
+<fullyQualifiedTypeName name="br.com.caelum.livraria.modelo.Autor"/>
+<fullyQualifiedTypeName name="javax.transaction.UserTransaction"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="javax.ejb.ApplicationException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="javax.interceptor.InvocationContext"/>
+<fullyQualifiedTypeName name="javax.interceptor.AroundInvoke"/>
+<fullyQualifiedTypeName name="javax.ejb.TransactionAttributeType"/>
+<fullyQualifiedTypeName name="javax.interceptor.Interceptor"/>
+<fullyQualifiedTypeName name="br.com.caelum.livraria.interceptador.LongInterceptador"/>
+<fullyQualifiedTypeName name="javax.interceptor.Interceptors"/>
+<fullyQualifiedTypeName name="javax.ejb.TransactionAttribute"/>
+<fullyQualifiedTypeName name="javax.ejb.Singleton"/>
+<fullyQualifiedTypeName name="javax.ejb.Startup"/>
+<fullyQualifiedTypeName name="javax.ejb.Schedule"/>
+</qualifiedTypeNameHistroy>
